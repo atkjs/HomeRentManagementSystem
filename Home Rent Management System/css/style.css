@@ -1,0 +1,126 @@
+.rightheader{
+    height: 100px;
+    padding: 0px;
+    background: linear-gradient(#708d6f,#2c492a);
+    color: white;
+    text-shadow: 3px 3px 3px white;
+    
+}
+.rightheader h2{  
+    margin-left: 50px;
+}
+.leftheader{
+    height: 100px;
+    padding: 0px;
+    background: linear-gradient(#8d998d,#c3cdc4);    
+       
+
+}
+.leftheader img{
+    margin-left:35px;
+    margin-top: 5px;
+}
+
+.menuitem{
+    height: 40px;
+    padding: 0px;
+    background: #dbe1d3;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.bodystyle{
+    height: 600px;
+    padding: 0px;
+    background: #ededed;
+
+}
+
+.footer{
+    height: 40px;
+    padding: 0px;
+    background: #435443;
+    color: white;
+}
+.footer p{
+    margin-left: 60px;
+}
+
+.default
+{
+    margin-top:30px;
+    background: #8d998d;
+    height:50px;
+}
+
+.content
+{
+    margin-top:30px;
+    background: white;
+    height:200px;
+}
+
+.logincontent
+{
+    margin-top:30px;
+    background: white;
+    height:300px;
+}
+
+.previewInitialContent
+{
+    height:200px;
+    margin-top:30px;
+    background:#2c492a;
+    color:White;    
+}
+.previewMiddleContent
+{
+    color:White;
+    font-size:15px;
+}
+
+.previewheader{
+    height: 60px;
+    padding: 0px;
+    background: linear-gradient(#708d6f,#2c492a);
+    color: white;
+    text-shadow: 3px 3px 3px white;
+    margin:0px;
+}
+.previewheader h3{  
+    margin-left: 30px;
+}
+.modalPop
+{
+    background-color:Black;
+        filter:alpha(opacity=90);
+        opacity:0.8;
+}
+
+.modalP
+{
+        background-color:#8d998d;
+        border-width:3px;
+        border-style:solid;
+        border-color:Black; 
+        padding-left:10px;
+        width:1000px;
+        height:600px;       
+}
+
+.viewownleft
+{
+    
+ height:300px;
+ background:#8d998d;
+ color:White; 
+ padding:0px;
+ margin:0px;   
+}
+.viewownmiddle
+{
+ height:500px;
+ background:#708d6f;
+ color:White;    
+}
+

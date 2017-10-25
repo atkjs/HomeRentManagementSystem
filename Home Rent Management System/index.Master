@@ -1,0 +1,74 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="index.master.cs" Inherits="Home_Rent_Management_System.index" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>হোম</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <!--header-->
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 leftheader">
+                    <img src="/images/logo.png" alt="logo" height="90px" width="90px" class="img-responsive"/>
+                </div>
+                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 rightheader">
+                    <h2>ঢাকা মেট্রো পলিটন পুলিশ </h2>
+                </div>
+            </div>           
+        </div>      
+        <!--header-->
+        <!--Menu Item-->
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 menuitem">
+                    <ul class="nav  nav-justified">
+                        <li><a href="../HRMS/default.aspx">হোম</a></li>                        
+                       <li><a href="../HRMS/register.aspx"> রেজিষ্টার</a></li>
+                        <li><a href="../HRMS/login.aspx"> লগইন</a></li>
+                        <li><a href=" "> সাধারন জিজ্ঞাসা</a></li>                      
+                        <li><a href=" ">তথ্য</a></li>
+                        <li><a href=" ">আপনার মতামত</a></li>
+                        <li><a href="../HRMS/jogajog.aspx">যোগাযোগ করুন</a></li>                      
+                    </ul>
+                </div>
+            </div>
+        </div>      
+        <!--Menu Item-->  
+        
+        <!-- Body-->     
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bodystyle" align="center">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                    
+                </div>
+            </div>
+        </div>       
+        <!-- Body-->
+        
+        <!--Footer-->
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 footer">
+                    <p>@২০১৬  আতিকুজ্জামান সাকিল</p>                 
+                </div>
+            </div>
+        </div>
+        <!--Footer-->
+
+    
+    
+    </form>
+</body>
+</html>
